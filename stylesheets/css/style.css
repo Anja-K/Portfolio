@@ -369,7 +369,7 @@ body {
 
 .skills {
   height: auto;
-  background: url("../../Images/cover-img.jpg") center center no-repeat;
+  background: url("../../images/cover-img.jpg") center center no-repeat;
   background-color: #3b323c;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -897,7 +897,7 @@ body {
 
 .contact-wrapper {
   width: 100%;
-  background: url("../../Images/woman.jpg") center center no-repeat;
+  background: url("../../images/woman.jpg") center center no-repeat;
   background-color: #3b323c;
   background-repeat: no-repeat;
   background-attachment: fixed;
