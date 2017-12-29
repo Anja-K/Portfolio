@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Anja Kukovska cv site</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Font awesome -->
+	<link rel="stylesheet" type="text/css" href="stylesheets/css/font-awesome.css">
+
+	<!-- Styles -->
+	<link rel="stylesheet" type="text/css" href="ProgressBar/jQuery-plugin-progressbar.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/css/style.css">
+	
+</head>
+<body>
+	<a href="#" class="back-to-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+	<div id="page-wrapper" class="wrapper">
+		<!-- Header -->
+		<header>
+			<div class="header-wrapper">
+				<div class="header-bg">
+					<div class="bg-img">
+					</div>
+					<div class="bedge">
+						<p><span>My</span><br /> resume</p>
+					</div>
+					<div class="title">
+						<h2>Anja Kukovska</h2>
+						<p>Front end developer</p>
+						<p>I am a front end developer seeking new oportunities to expand and practise my knowlegde.</p>
+					</div>
+				</div>
+				<nav class="main-navigation">
+					<ul>
+						<a href="#" id="toggle-menu"><li><div class="container">
+							  <div class="bar1"></div>
+							  <div class="bar2"></div>
+							  <div class="bar3"></div>
+							</div></li></a>
+						<a href="#"><li id="home" class="active" >Home</li></a>
+						<a href="#"><li id="about">About</li></a>
+						<a href="#"><li id="skills">Skills</li></a>
+						<a href="#"><li id="portfolio">Portfolio</li></a>
+						<a href="#"><li id="contact">Contact</li></a>			
+					</ul>	
+				</nav>
+			</div>
+		</header><!-- end of header-->
+
+		<!-- About me -->
+		<div class="about">
+			<div class="about-content appear">
+				<div class="image-me">
+					<h4><span>About</span><br class="invisible" /> me</h4>
+					<img src="images/profile.jpg" alt="Avatar picture" />
+				</div>
+				<div class="detales">
+					<p>Hello,<br>
+					my name is Anja and I am a Front end developer. I got involved in this area quite recently but I am very eager to learn more and improve my skillset. I have always taken interest in design and I enjoy creating concepts and mockups of websites. I am currently focused on improving my developing skills, since that is the area I believe I can improve in most. My current experience includes work with different frameworks/preprocessors such as Bootstrap, Sass and Wordpress but more practise is always welcome. I would describe myself as dilligent, hardworking and always open to new experiences and challenges.</p>
+					<ul class="resume">
+						<li><span>Interests:</span> Web Design, Marketing, UX/UI, Material Design</li>
+						<li><span>Hobbies:</span> Drawing, designing websites</li>
+					</ul>
+					<p><a href="#"><span>Download resume</span></a></p>
+				</div>
+			</div>
+		</div><!--End of About me -->
+
+		<div class="skills">
+			<div class="skills-cover">
+				<div class="skill-content">
+					<div class="skill-header">
+						<h4>My skillset</h4>
+					</div>
+
+					<!-- Chart Photoshop -->
+					<div class="charts">
+						<div class="abilities ability-row1">
+							<div class="chart progress-bar position" data-percent="70" data-duration="1000" data-color="#2f2830,#ef7674"></div>
+							<div class="ability photoshop">
+								<h5>Photoshop</h5>
+								<p>Working with Photoshop was part of my daily activities working as a web administrator.</p>
+							</div>
+						</div><!-- End of chart photoshop -->
+
+					<!-- Chart Illustrator -->
+						<div class="abilities ability-row1">
+							<div class="chart progress-bar position" data-percent="75" data-duration="1000" data-color="#2f2830,#ef7674"></div>
+							<div class="ability illustrator">
+								<h5>Illustrator</h5>
+								<p>My experience with Illustrator is gained mainly through student projects and personal interest and satisfaction.</p>
+							</div>
+						</div><!-- End of chart Illustrator -->
+
+					<!-- Chart HTML/CSS -->
+						<div class="abilities ability-row1">
+							<div class="chart progress-bar position" data-percent="80" data-duration="1000" data-color="#2f2830,#ef7674"></div>
+							<div class="ability html">
+								<h5>HTML5/CSS3</h5>
+								<p>I feel comfortable coding in html and css since it has been part of my daily routine for almost a year now.</p>
+							</div>
+						</div><!-- End of chart HTML/CSS -->
+
+					<!-- Chart JavaSctipt -->
+			
+						<div class="abilities ability-row2">
+							<div class="chart progress-bar position" data-percent="60" data-duration="1000" data-color="#2f2830,#ef7674"></div>
+							<div class="ability jscript">
+								<h5>Java Script/jQuery</h5>
+								<p>Java Script is a decent companion of my html. Nonetheless, I am working on imporving my skills by taking up small projects.</p>
+							</div>
+					</div><!-- End of chart javascript -->
+
+					<!-- Chart Php -->
+						<div class="abilities ability-row2">
+							<div class="chart progress-bar position" data-percent="65" data-duration="1000" data-color="#2f2830,#ef7674"></div>
+							<div class="ability php">
+								<h5>Php/mySQL</h5>
+								<p>My humble experience in this area is gained through work on different projects but I am very eager to expand my knowledge.</p>
+							</div>
+						</div><!-- End of chart Php -->
+					</div><!-- End of charts-->
+							
+				</div>
+			</div><!--end of cover -->
+		</div><!-- end of skills -->
+
+		<!-- Portfolio -->
+		<div class="portfolio">
+			<div class="portfolio-content">
+				<h4>Portfolio</h4>
+				<div class="icon-line"><hr /></div>
+				<ul>
+					<li><button id="all-items" class="btn active">All</button></li>
+					<li><button id="web-design" class="btn">Web design</button></li>
+					<li><button id="graphic-design" class="btn">Graphic design</button></li>	
+				</ul>
+				<div id="items" class="portfolio-items">
+					<div class="project">
+					<figure id="one" class="item all web">
+						<img src="images/dash.jpg" alt="Admin dashboard" />
+							<figcaption>
+								<h2>Admin <span> dashboard</span></h2>
+								<p><span><a><i class="fa fa-search" aria-hidden="true"></i></a></span>Modern and functional design of an Admin dashboard<br />
+									<span><a href="https://github.com/Anja-K/PersonalProjects/tree/master/AdminDashboard" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></span></p>
+							</figcaption>
+					</figure>
+
+					
+						<div class="test1 test">
+							<div class="close-img"><a href="#" class="close"> x </a></div>
+							<div class="slideshow-container">
+								<div class="mySlides fade">
+									<div class="numbertext">1 / 5</div>
+									<img src="images/admindb1.jpg" alt="Admin dashboard" />
+								</div>
+
+								<div class="mySlides fade">
+									<div class="numbertext">2 / 5</div>
+									<img src="images/404error.jpg" alt="Admin dashboard" />
+								</div>
+
+								<div class="mySlides fade">
+									<div class="numbertext">3 / 5</div>
+									<img src="images/profile-page.jpg" alt="Admin dashboard" />
+								</div>
+
+								<div class="mySlides fade">
+									<div class="numbertext">4 / 5</div>
+									<img src="images/ui-elements.jpg" alt="Admin dashboard" />
+								</div>
+
+								<div class="mySlides fade">
+									<div class="numbertext">5 / 5</div>
+									<img src="images/charts.jpg" alt="Admin dashboard" />
+								</div>
+
+								<a class="prev">&#10094;</a>
+	  							<a class="next">&#10095;</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="project">
+						<figure id="two" class="item all graphic two">
+							<img src="images/logo-1.jpg" alt="Calpure logo">
+								<figcaption>
+									<h2>Calpure <span> logo-deign</span></h2>
+									<p><span><a><i class="fa fa-search" aria-hidden="true"></i></a></span>Logo design for Calpure Couture.<br />
+										Inspired by crochet sewing patterns</p>
+								</figcaption>
+						</figure>
+
+						<div class="test1 test">
+							<div class="close-img"><a href="#" class="close"> x </a></div>
+							<div class="slideshow-container">
+								<div class="mySlides fade">
+									<div class="numbertext">1 / 2</div>
+									<img src="images/logo-final.jpg" alt="Calpure logo" />
+								</div>
+
+								<div class="mySlides fade">
+									<div class="numbertext">2 / 2</div>
+									<img src="images/logo-business.jpg" alt="Calpure logo" />
+								</div>
+
+								<div class="mySlides fade">
+									<div class="numbertext">2 / 2</div>
+									<img src="images/logo-calpure.jpg" alt="Calpure logo" />
+								</div>
+
+								<a class="prev">&#10094;</a>
+	  							<a class="next">&#10095;</a>
+	  						</div>
+						</div>
+
+					</div>
+
+					<div class="project">
+					<figure id="three" class="item all web three">
+						<img src="images/reddit.jpg" alt="Reddit redesign" />
+							<figcaption>
+								<h2>Reddit  <span> redesign</span></h2>
+								<p><span><a href="#""><i class="fa fa-search" aria-hidden="true"></i></a></span>Redesign of Reddit homepage and comments section.
+									- Following the principles of Material design<span><a href="https://github.com/Anja-K/PersonalProjects/tree/master/Reddit-redesign" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></span></p>
+							</figcaption>
+					</figure>
+
+					
+						<div class="test1 test">
+									<div class="close-img"><a href="#" class="close"> x </a></div>
+									<div class="slideshow-container">
+										<div class="mySlides fade">
+											<div class="numbertext">1 / 4</div>
+											<img src="images/reddit-home.jpg" alt="Reddit homepage redesign" />
+										</div>
+
+										<div class="mySlides fade">
+											<div class="numbertext">2 / 4</div>
+											<img src="images/reddit-home2.jpg" alt="Reddit homepage footer redesign" />
+										</div>
+
+										<div class="mySlides fade">
+											<div class="numbertext">3 / 4</div>
+											<img src="images/comments.jpg" alt="Reddit comment page redesign" />
+										</div>
+
+										<div class="mySlides fade">
+											<div class="numbertext">4 / 4</div>
+											<img src="images/comments2.jpg" alt="Reddit comment page redesign" />
+										</div>
+
+										<a class="prev">&#10094;</a>
+			  							<a class="next">&#10095;</a>
+			  						</div>
+								</div>
+					</div>
+
+					<div class="project">
+						<figure id="four" class="item all graphic four">
+							<img src="images/nl.jpg" alt="Calpure NL">
+								<figcaption>
+									<h2>Calpure <span> newsletter</span></h2>
+									<p><span><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></span>Newsletter design for online clothing shop.<br />
+										</p>
+								</figcaption>
+						</figure>
+
+						<div class="test1 test">
+							<div class="close-img"><a href="#" class="close"> x </a></div>
+							<div class="slideshow-container">
+								<div class="mySlides fade">
+									<div class="numbertext">1 / 3</div>
+									<img src="images/nl-large.jpg" alt="Calpure NL" />
+								</div>
+
+								<div class="mySlides fade">
+									<div class="numbertext">2 / 3</div>
+									<img src="images/ad.jpg" alt="Calpure Fb ad">
+								</div>
+
+								<div class="mySlides fade">
+									<div class="numbertext">3 / 3</div>
+									<img src="images/ban.jpg" alt="Calpure Fb banner" />
+								</div>
+
+								<a class="prev">&#10094;</a>
+	  							<a class="next">&#10095;</a>
+	  						</div>
+						</div>
+					</div>
+
+					<div class="project">
+						<figure id="five" class="item all web five">
+							<img src="images/weather-app.jpg" alt="Weather app" />
+								<figcaption>
+									<h2>Weather <span> app</span></h2>
+									<p><span><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></span>Weather forecast application<br />
+										- designed with jQuery and ajax<span><a href="https://anja-k.github.io/Weather-Application/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></span></p>
+								</figcaption>
+						</figure>
+
+						<div class="test1 test">
+								<div class="close-img"><a href="#" class="close"> x </a></div>
+								<div class="slideshow-container">
+									<div class="mySlides fade">
+										<div class="numbertext">1 / 5</div>
+										<img src="images/weather-desk-1.jpg" alt="Weather application desktop version one" />
+									</div>
+
+									<div class="mySlides fade">
+										<div class="numbertext">2 / 5</div>
+										<img src="images/weather-desk-2.jpg" alt="Weather application desktop version two" />
+									</div>
+
+									<div class="mySlides fade">
+										<div class="numbertext">3 / 5</div>
+										<img src="images/weather-desk-3.jpg" alt="Weather application desktop version three" />
+									</div>
+
+									<div class="mySlides fade">
+										<div class="numbertext">4 / 5</div>
+										<img src="images/weather-mobile.jpg" alt="Weather application mobile background versions" />
+									</div>
+
+									<div class="mySlides fade">
+										<div class="numbertext">5 / 5</div>
+										<img src="images/weather-mobile-sides.jpg" alt="Weather application full mobile version" />
+									</div>
+
+									<a class="prev">&#10094;</a>
+		  							<a class="next">&#10095;</a>
+		  						</div>
+							</div>
+					</div>
+					<div class="project">
+						<figure id="seven" class="item all web seven">
+							<img src="images/task-management.jpg" alt="Task management system" />
+								<figcaption>
+									<h2>Task <span> management-system</span></h2>
+									<p><span><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></span>A simple task management-system<br />
+										- designed with php<span><a href="https://github.com/Anja-K/PersonalProjects/tree/master/TaskManagement-system" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></span></p>
+								</figcaption>
+						</figure>
+						<div class="test1 test">
+								<div class="close-img"><a href="#" class="close"> x </a></div>
+								<div class="slideshow-container">
+									<div class="mySlides fade">
+										<div class="numbertext">1 / 3</div>
+										<img src="images/task-system1.jpg" alt="Task management system" />
+									</div>
+
+									<div class="mySlides fade">
+										<div class="numbertext">2 / 3</div>
+										<img src="images/task-system2.jpg" alt="Task management system" />
+									</div>
+
+									<div class="mySlides fade">
+										<div class="numbertext">3 / 3</div>
+										<img src="images/task-system3.jpg" alt="Task management system" />
+									</div>
+									<a class="prev">&#10094;</a>
+		  							<a class="next">&#10095;</a>
+		  						</div>
+							</div>
+					</div>
+
+					<div class="project">
+						<figure id="six" class="item all web six">
+							<img src="images/ui-kit.jpg" alt="UI kit" />
+								<figcaption>
+									<h2>Mini <span> UI-kit</span></h2>
+									<p><span><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></span>Material design inspired mini UI-kit<br />
+										<span><a href="https://github.com/Anja-K/PersonalProjects/tree/master/UiKit" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></span></p>
+								</figcaption>
+						</figure>
+
+
+						<div class="test1 test">
+									<div class="close-img"><a href="#" class="close"> x </a></div>
+									<div class="slideshow-container">
+										<div class="mySlides fade">
+											<div class="numbertext">1 / 3</div>
+											<img src="images/uikit-1.jpg" alt="UI kit" />
+										</div>
+
+										<div class="mySlides fade">
+											<div class="numbertext">2 / 3</div>
+											<img src="images/uikit-2.jpg" alt="UI kit" />
+										</div>
+
+										<div class="mySlides fade">
+											<div class="numbertext">3 / 3</div>
+											<img src="images/uikit-3.jpg" alt="UI kit" />
+										</div>
+										<a class="prev">&#10094;</a>
+			  							<a class="next">&#10095;</a>
+			  						</div>
+								</div>
+					</div>
+
+					<div class="project">
+						<figure id="eight" class="item all graphic eight">
+							<img src="images/bellina.jpg" alt="Bellina mk">
+								<figcaption>
+									<h2>Bellina <span> FB-ad</span></h2>
+									<p><span><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></span>Facebook advertisement design for Bellina.mk<br />
+										</p>
+								</figcaption>
+						</figure>
+						<div class="test1 test">
+								<div class="close-img"><a href="#" class="close"> x </a></div>
+								<div class="slideshow-container">
+									<div class="mySlides fade">
+										<div class="numbertext">1 / 5</div>
+										<img src="images/anathea.jpg" alt="Anathea -Eau Fraîche 200 ml." />
+									</div>
+
+									<div class="mySlides fade">
+										<div class="numbertext">2 / 5</div>
+										<img src="images/aqua.jpg" alt="Aqua - Eau Fraîche 200 ml." />
+									</div>
+
+									<div class="mySlides fade">
+										<div class="numbertext">3 / 5</div>
+										<img src="images/dona.jpg" alt="Eau Fraîche 200 ml." />
+									</div>
+
+									<div class="mySlides fade">
+										<div class="numbertext">4 / 5</div>
+										<img src="images/charme.jpg" alt="Charme - Eau Fraîche 200 ml." />
+									</div>
+
+									<div class="mySlides fade">
+										<div class="numbertext">5 / 5</div>
+										<img src="images/sea-of-sun.jpg" alt="Sea of Sun - Eau Fraîche 200 ml." />
+									</div>
+
+									<a class="prev">&#10094;</a>
+		  							<a class="next">&#10095;</a>
+		  						</div>
+							</div>
+					</div>
+					<div class="project">
+						<figure id="nine" class="item all graphic nine">
+							<img src="images/refan.jpg" alt="Refan gold logor">
+								<figcaption>
+									<h2>Refan <span> FB-ad</span></h2>
+									<p><span><a><i class="fa fa-search" aria-hidden="true"></i></a></span>Facebook advertisement design for Refan gold<br />
+										</p>
+								</figcaption>
+						</figure>
+
+						<div class="test1 test">
+							<div class="close-img"><a href="#" class="close"> x </a></div>
+							<div class="slideshow-container">
+								<div class="mySlides fade">
+									<div class="numbertext">1 / 2</div>
+									<img src="images/Refan-w.jpg" alt="Refan gold for women" />
+								</div>
+
+								<div class="mySlides fade">
+									<div class="numbertext">2 / 2</div>
+									<img src="images/Refan-m.jpg" alt="Refan gold for men" />
+								</div>
+
+								<a class="prev">&#10094;</a>
+	  							<a class="next">&#10095;</a>
+	  						</div>
+						</div>
+				</div>
+			</div>
+			
+		</div><!-- end of portfolio -->
+
+		<!-- Contact me -->
+		<div class="contact-wrapper">
+			<div class="cover-color">
+				<div class="contact-content">
+					<div class="contact-me">
+						<h2><span>Get </span><br class="invisible" />in <br class="invisible" /><span>touch </span></h2>
+						<div class="contact">
+							<p><a href="mailto:akukovska@gmail.com">akukovska@gmail.com </a><i class="fa fa-envelope" aria-hidden="true"></i></p>
+							<br />
+							<p><a href="tel:+389 076-466-669">076/466-669 </a><i class="fa fa-phone" aria-hidden="true"></i></p>
+							<ul class="social">
+								<li>Find me on: </li>
+								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<form method="POST" action="">
+
+						<!-- Full name -->
+						<div class="input-element">
+							<input type="text" name="fullname" id="fullname" required />
+							<label for="fullname">
+								<span></span>
+							</label>
+							<svg class="graph" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+								<path d="M1200,9c0,0-305.005,0-401.001,0C733,9,675.327,4.969,598,4.969C514.994,4.969,449.336,9,400.333,9C299.666,9,0,9,0,9v43c0,0,299.666,0,400.333,0c49.002,0,114.66,3.484,197.667,3.484c77.327,0,135-3.484,200.999-3.484C894.995,52,1200,52,1200,52V9z"></path>
+							</svg>
+
+						</div>
+
+						<!-- Email -->
+						<div class="input-element">
+							<input type="email" name="email" id="email"  required />
+							<label for="email">
+								<span id="email-after"></span>
+							</label>
+							<svg class="graph" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+								<path d="M1200,9c0,0-305.005,0-401.001,0C733,9,675.327,4.969,598,4.969C514.994,4.969,449.336,9,400.333,9C299.666,9,0,9,0,9v43c0,0,299.666,0,400.333,0c49.002,0,114.66,3.484,197.667,3.484c77.327,0,135-3.484,200.999-3.484C894.995,52,1200,52,1200,52V9z"></path>
+							</svg>
+						</div>
+
+						<!-- Message -->
+						<div class="input-element textarea">
+							<textarea name="message" id="message" rows="5" required></textarea>
+							<label for="email">
+								<span></span>
+							</label>
+							<svg class="graph" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+								<path d="M1200,9c0,0-305.005,0-401.001,0C733,9,675.327,4.969,598,4.969C514.994,4.969,449.336,9,400.333,9C299.666,9,0,9,0,9v43c0,0,299.666,0,400.333,0c49.002,0,114.66,3.484,197.667,3.484c77.327,0,135-3.484,200.999-3.484C894.995,52,1200,52,1200,52V9z"></path>
+							</svg>
+						</div>
+						<div class="input-element">
+							<button type="submit"><span>Send</span></button>
+						</div>
+					</form>
+				</div>
+			</div>
+
+		</div>
+		<footer>
+			<p>Coded by: Anja Kukovska</p>
+			<p>All rights reseved &copy; 2017</p>	
+		</footer>
+	</div>
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script src="ProgressBar/jQuery-plugin-progressbar.js"></script>
+
+	<script src="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.22/jquery-ui.js"></script>
+	<script type="text/javascript" src="scripts/javascript.js">
+
+	
+
+
+	</script>
+</body>
+</html>
