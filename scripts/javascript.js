@@ -253,6 +253,15 @@ var slideIndex = 1;
 				
 				
 			});
+			
+			$('.show-before').on('click', function(e){
+				e.preventDefault();
+				$('body').removeClass('show-before');
+				$(this).parents('.test1').addClass('test');
+				slideIndex = 1;
+				
+				
+			});
 
 
 
