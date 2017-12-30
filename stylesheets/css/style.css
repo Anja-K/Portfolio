@@ -521,7 +521,8 @@ body {
         position: absolute;
         left: calc(50% - 25px);
         border-radius: 50%;
-        background-color: #bababa;
+        background-color: #3b323c;
+        border: 2px solid #fff;
         width: 30px;
         height: 23px;
         top: -1200%;
